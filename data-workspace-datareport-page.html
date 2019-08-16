@@ -1,7 +1,6 @@
 
 
 
-
 <!DOCTYPE html>
 <html lang="en-GB" class="govuk-template">
 
@@ -12,8 +11,9 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0b0c0c">
-  <meta property="og:image" content="https://data.trade.gov.uk/__django_static/assets/images/govuk-opengraph-image.png">
+  <meta property="og:image" content="/__django_static/assets/images/govuk-opengraph-image.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 
   <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="https://data.trade.gov.uk/__django_static/assets/images/favicon.ico" type="image/x-icon">
   <link rel="mask-icon" href="https://data.trade.gov.uk/__django_static/assets/images/govuk-mask-icon.svg" color="#0b0c0c">
@@ -100,204 +100,223 @@
     </div>
 
     
+   <main class="govuk-main-wrapper" id="main-content" role="main">
+      
 
-    <main class="govuk-main-wrapper" id="main-content" role="main">
-<div class="govuk-width-container">
-    <h1 class="govuk-heading-xl">Find a dataset</h1>
-</div>
       
     <div class="govuk-grid-row">
-        <div class="govuk-grid-column-one-third">
-            
-                <dl class="govuk-summary-list govuk-summary-list">
-                    
-                    <div class="govuk-form-group">
- 
- 
- 
-  <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
-      <h1 class="govuk-fieldset__heading">
-        Search
-      </h1>
-    </legend>
-  <input class="govuk-input" id="event-name" name="event-name" type="text" placeholder="Search for datasets">
-</div>       
-                           <div class="govuk-form-group">
-  <fieldset class="govuk-fieldset">
-    <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
-      <h1 class="govuk-fieldset__heading">
-        Topics
-      </h1>
-    </legend>
-    <div class="govuk-checkboxes govuk-checkboxes--small">
-      <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
-        <label class="govuk-label govuk-checkboxes__label" for="organisation">
-          Companies
-        </label>
-      </div>
-      <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="organisation-2" name="organisation" type="checkbox" value="employment-tribunal">
-        <label class="govuk-label govuk-checkboxes__label" for="organisation-2">
-          Staff        </label>
-      </div>
-      <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="organisation-2" name="organisation" type="checkbox" value="employment-tribunal">
-        <label class="govuk-label govuk-checkboxes__label" for="organisation-2">
-          Structure        </label>
-      </div>
-      <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
-        <label class="govuk-label govuk-checkboxes__label" for="organisation-3">
-          Geography
-        </label>
-      </div>
-      <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="organisation-4" name="organisation" type="checkbox" value="DfT">
-        <label class="govuk-label govuk-checkboxes__label" for="organisation-4">
-          Macroeconomic        </label>
-      </div>
-    </div>
-  </fieldset>
-</div>
-       
-       
-       <div class="govuk-form-group">
-  <fieldset class="govuk-fieldset">
-    <legend class="govuk-fieldset__legend govuk-fieldset__legend--s">
-      <h1 class="govuk-fieldset__heading">
-       Data source
-      </h1>
-    </legend>
-    <div class="govuk-checkboxes govuk-checkboxes--small">
-      <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="organisation" name="organisation" type="checkbox" value="hmrc">
-        <label class="govuk-label govuk-checkboxes__label" for="organisation">
-          Data Hub
-        </label>
-      </div>
-      <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="organisation-2" name="organisation" type="checkbox" value="employment-tribunal">
-        <label class="govuk-label govuk-checkboxes__label" for="organisation-2">
-          GREAT.gov       </label>
-      </div>
-      <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="organisation-2" name="organisation" type="checkbox" value="employment-tribunal">
-        <label class="govuk-label govuk-checkboxes__label" for="organisation-2">
-          ONS        </label>
-      </div>
-      <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
-        <label class="govuk-label govuk-checkboxes__label" for="organisation-3">
-          HMRC
-        </label>
-      </div>
-      <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
-        <label class="govuk-label govuk-checkboxes__label" for="organisation-3">
-          Companies House
-        </label>
-      </div>
-    </div>
-  </fieldset>
-</div>
-       
-                    
-                </dl>
-            
-        </div>
-        
-        
-        
-        
-        
         <div class="govuk-grid-column-two-thirds">
-         <div class="govuk-grid-row">
-            	<div class="govuk-grid-column-one-half">            
-            		<h1 class="govuk-heading-m">8 datasets</h1>
-            	</div>
-            	<div class="govuk-grid-column-one-half" align="right">
-            		<div class="govuk-form-group">
-            			<label class="govuk-label govuk-!-font-size-14" for="sort">
-            			Sort by:
-            			<select class="govuk-label govuk-!-font-size-14" id="sort" name="sort" style="display: inline-block">
-            				<option value="published">Recently published</option>
-    						<option value="updated" selected>Recently updated</option>
-    						<option value="views">Most views</option>
-    					</select>
-    					</label>
-  					</div>
-  				</div>
-  			</div>
-  			
-  		    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible govuk-!-margin-top-0">
-<div class="govuk-grid-row">
-            	<div class="govuk-grid-column-two-thirds">   
-<h3 class="govuk-heading-m">
-            <a class="govuk-link" href="data-workspace-data-page.html">HMRC Data</a>
-        </h3></div>
-            	<div class="govuk-grid-column-one-third" align="right">
-            	<strong class="govuk-tag govuk-phase-banner__content__tag govuk-!-font-size-12">Data</strong>         
-       
-              <strong class="govuk-tag govuk-phase-banner__content__tag govuk-!-font-size-12" style="background-color: #004c00">CSV</strong>         
-          </div>
+            <h1 class="govuk-heading-l">Companies who have done two things</h1>
+            <p class="govuk-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
 
-     </div> 
-        
-  <p class="govuk-body">Statistics that record the movement - for trade purposes - of goods between the UK and both EU and non-EU countries.</p>
 
-  <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
 
-      <div class="govuk-grid-row">
-                    <div class="govuk-grid-column-two-thirds">   
-      <h3 class="govuk-heading-m">
-                  <a class="govuk-link" href="data-workspace-datareport-page.html">Companies who have done two things</a>
-              </h3></div>
-                    <div class="govuk-grid-column-one-third" align="right">             
-                    <strong class="govuk-tag govuk-phase-banner__content__tag govuk-!-font-size-12" style="background-color: #004c00">CSV</strong>         
+
+
+
+            <h3 class="govuk-heading-l">Contact</h3>
+            <p class="govuk-body">
+    Johnson Kingsley
+    
+        <br/>
+        <a href="mailto:lexington.harley@email.gov.uk">johnson.kingsley@email.com.uk</a>
+    
+</p>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="govuk-grid-row" style="overflow-x: auto;">
+        <div class="govuk-grid-column-full">
+            <h2 class="govuk-heading-l govuk-!-margin-top-8">Data Links</h2>
+
+            <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+   
+            
+
+            <table class="govuk-table">
+                <thead>
+                <tr class="govuk-table__row">
+                    <th class="govuk-table__header">Link to the data</th>
+                    <th class="govuk-table__header">Format</th>
+                    <th class="govuk-table__header">File added</th>
+                    <th class="govuk-table__header">Frequency</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                
+
+                
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">
+                            
+                                <a
+                                        class="govuk-link"
+                                        href="/table_data/datasets_1/hmrc.exporters/L1">
+                                    Dataset Financial Year 2016/2017
+                                </a>
+                            
+
+                        </td>
+                        <td class="govuk-table__cell">
+                            CSV
+                        </td>
+                        <td class="govuk-table__cell">
+                            09/17
+                        </td>
+                        <td class="govuk-table__cell">
+                            Annually
+                        </td>
+                    </tr>
+
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">
+                            
+                                <a
+                                        class="govuk-link"
+                                        href="/table_data/datasets_1/hmrc.exporters/L1">
+                                    Dataset Financial Year 2017/2018
+                                </a>
+                            
+
+                        </td>
+                        <td class="govuk-table__cell">
+                            CSV
+                        </td>
+                        <td class="govuk-table__cell">
+                            09/18
+                        </td>
+                        <td class="govuk-table__cell">
+                            Annually
+                        </td>
+                    </tr>
+
+                    <tr class="govuk-table__row">
+                        <td class="govuk-table__cell">
+                            
+                                <a
+                                        class="govuk-link"
+                                        href="/table_data/datasets_1/hmrc.exporters/L1">
+                                    Dataset Financial Year 2018/2019
+                                </a>
+                            
+
+                        </td>
+                        <td class="govuk-table__cell">
+                            CSV
+                        </td>
+                        <td class="govuk-table__cell">
+                            09/19
+                        </td>
+                        <td class="govuk-table__cell">
+                            Annually
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <h2 class="govuk-heading-l govuk-!-margin-top-8">Additional Information</h2>
+
+            <dl class="govuk-summary-list">
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">
+                        Published Date
+                    </dt>
+                    <dd class="govuk-summary-list__value">
+                        05/07/2017
+                    </dd>
+                </div>
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">
+                        Updated Date
+                    </dt>
+                    <dd class="govuk-summary-list__value">
+                        25/07/2019
+                    </dd>
                 </div>
 
-           </div> 
-        
-  <p class="govuk-body">Statistics that record the movement - for trade purposes - of goods between the UK and both EU and non-EU countries.</p>
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">
+                        Part of
+                    </dt>
+                    <dd class="govuk-summary-list__value">
+                        <a class="govuk-link" href="/catalogue/hmrc-data">
+                            ??
+                        </a>
+                    </dd>
+                </div>
 
-                
-            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">Redaction Note</dt>
+                    <dd class="govuk-summary-list__value"></dd>
+                </div>
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">Licence</dt>
+                    <dd class="govuk-summary-list__value"></dd>
+                </div>
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">Volume</dt>
+                    <dd class="govuk-summary-list__value">0</dd>
+                </div>
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">Retention Policy</dt>
+                    <dd class="govuk-summary-list__value"></dd>
+                </div>
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">Personal Data</dt>
+                    <dd class="govuk-summary-list__value">Does not contain personal data</dd>
+                </div>
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">Restrictions on usage</dt>
+                    <dd class="govuk-summary-list__value"></dd>
+                </div>
+                <div class="govuk-summary-list__row">
+                    <dt class="govuk-summary-list__key">Data Sources</dt>
+                    <dd class="govuk-summary-list__value"><a href="data-workspace-uk-export-dataset.html">HMRC UK Export</a>, <a href="">CRM</a>, <a href="">GREAT</a></dd>
+                </div>
 
-                <h3 class="govuk-heading-m">
-                    <a class="govuk-link" href="/catalogue/ons-data">ONS Data</a>
-                </h3>
-                <p class="govuk-body">The Office for National Statistics is the UK&#39;s recognised national statistical institute and is its largest producer of official statistics.</p>
+            </dl>
+        </div>
+    </div>
 
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+            <h2 class="govuk-heading-l govuk-!-margin-top-8">Related content that uses similar data</h2>
+            <h3 class="govuk-heading-m">
+                    <a class="govuk-link" href="">Dataset 1</a>
+            </h3>
+
+            <p class="govuk-body">Description of linked datasets 1...</p>
            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
-                
-                <h3 class="govuk-heading-m">
-                    <a class="govuk-link" href="/catalogue/open-data-sets">Open data sets</a>
-                </h3>
-                <p class="govuk-body">Data sets published by a range of national and international organisations that are free for use, re-use and redistribution.</p>
 
-<hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
-               
-                <h3 class="govuk-heading-m">
-                    <a class="govuk-link" href="/catalogue/public-data">Open data sets (internal)</a>
-                </h3>
-                <p class="govuk-body">Data published by the Department for public use.</p>
-            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
-                <h3 class="govuk-heading-m">
-                    <a class="govuk-link" href="data-workspace-ref-data-page.html">Reference Data Set - Countries and Territories</a>
-                </h3>
-                <p class="govuk-body">Reference data are data that define the set of permissible values to be used by other data fields</p>
-                
-          
+              
+            <h3 class="govuk-heading-m">
+                    <a class="govuk-link" href="">Dataset 1</a>
+            </h3>
 
-            
+            <p class="govuk-body">Description of linked datasets 1...</p>
+           <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
 
-            
+  
 
         </div>
-
-      
     </div>
+
+
 
     </main>
   </div>
