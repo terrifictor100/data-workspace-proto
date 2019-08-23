@@ -100,168 +100,443 @@
     </div>
 
     
-   <main class="govuk-main-wrapper" id="main-content" role="main">
+<main class="govuk-main-wrapper" id="main-content" role="main">
       
 
       
-    <div class="govuk-grid-row">
-        <div class="govuk-grid-column-two-thirds">
-            <h1 class="govuk-heading-l">Countries and Territories Reference Data</h1>
-            <p class="govuk-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-
-
-
-
-
-
-            <h3 class="govuk-heading-l">Contact</h3>
-            <p class="govuk-body">
-    Ben McFrank
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <h1 class="govuk-heading-l">Countries and Territories</h1>
+      <p class="govuk-body">
+        Provides a list of countries and territories for use in DIT services and reporting.  The list is a combination of two published gov.uk registers managed by Foreign and Commonwealth Office - the country register and the territory register. These registers can be accessed below:<br><br>- British English names of all countries currently recognised by the UK government<br>Country register (www.registers.service.gov.uk/registers/country)<br><br>- British English names of territories not currently recognised as countries by the UK government<br>Territory register (www.registers.service.gov.uk/registers/territory)
+      </p>
+      
+        <h3 class="govuk-heading-m">Contact</h3>
+        <p class="govuk-body">
+    Adrian Mole
     
         <br/>
-        <a href="mailto:lexington.harley@email.gov.uk">ben.mcfrank@email.com.uk</a>
+        <a href="mailto:adrian.mole@secret.diart.gov.uk">adrian.mole@secret.diary.gov.uk</a>
     
 </p>
 
-
-        </div>
+      
     </div>
+  </div>
 
+  <div class="govuk-grid-row" style="overflow-x: auto;">
+    <div class="govuk-grid-column-full">
+      <h2 class="govuk-heading-m govuk-!-margin-top-8">Data links</h2>
+      <table class="govuk-table">
+        <thead>
+          <tr class="govuk-table__row">
+            <th class="govuk-table__header">Link to the data</th>
+            <th class="govuk-table__header">Format</th>
+            <th class="govuk-table__header">Version</th>
+            <th class="govuk-table__header">Last updated</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+              <a class="govuk-link" href="/catalogue/reference-data-sets/reference/countries-and-territories/json">
+                countries-and-territories-1.0.json
+              </a>
+            </td>
+            <td class="govuk-table__cell">JSON</td>
+            <td class="govuk-table__cell">1.0</td>
+            <td class="govuk-table__cell">July 30, 2019, 4:40 p.m.</td>
+          </tr>
+          <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+              <a class="govuk-link" href="/catalogue/reference-data-sets/reference/countries-and-territories/csv">
+                countries-and-territories-1.0.csv
+              </a>
+            </td>
+            <td class="govuk-table__cell">
+              CSV
+            </td>
+            <td class="govuk-table__cell">1.0</td>
+            <td class="govuk-table__cell">July 30, 2019, 4:40 p.m.</td>
+          </tr>
+        </tbody>
+      </table>
+      <strong class="govuk-tag">
+  Get updated when this data changes
+</strong>
+    </div>
+  </div>
 
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <h2 class="govuk-heading-m govuk-!-margin-top-8">
+        Field definitions
+      </h2>
+      <dl class="govuk-summary-list">
+        
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Name
+            </dt>
+            <dd class="govuk-summary-list__value">
+              The commonly-used name of a record
+            </dd>
+          </div>
+        
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Official name
+            </dt>
+            <dd class="govuk-summary-list__value">
+              The official or technical name of a record
+            </dd>
+          </div>
+        
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Type
+            </dt>
+            <dd class="govuk-summary-list__value">
+              The source of a record - gov.uk Country or gov.uk Territory
+            </dd>
+          </div>
+        
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Key
+            </dt>
+            <dd class="govuk-summary-list__value">
+              The 2 letter ISO 3166-2 alpha2 code (for countries) or the ISO 3166-1 alpha3 code (for territories). Unique codes have been created for territories that don&#39;t have an existing ISO code
+            </dd>
+          </div>
+        
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              Start date
+            </dt>
+            <dd class="govuk-summary-list__value">
+              The date a record first became relevant to a register
+            </dd>
+          </div>
+        
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">
+              End date
+            </dt>
+            <dd class="govuk-summary-list__value">
+              The date a record stopped being applicable
+            </dd>
+          </div>
+        
+      </dl>
+    </div>
+  </div>
 
-    <div class="govuk-grid-row" style="overflow-x: auto;">
-        <div class="govuk-grid-column-full">
-            <h2 class="govuk-heading-l govuk-!-margin-top-8">Data Links</h2>
-
-            <div class="govuk-grid-row">
-        <div class="govuk-grid-column-three-quarters">
-   
+  <div class="govuk-grid-row" style="overflow-x: auto;">
+    <div class="govuk-grid-column-full">
+      <h2 class="govuk-heading-m govuk-!-margin-top-8">
+        Data preview
+      </h2>
+      
+        <p class="govuk-body">
+          Showing <strong>5</strong> of <strong>278</strong> records
+        </p>
+      
+      <table class="govuk-table govuk-!-font-size-16">
+        <thead>
+          <tr class="govuk-table__row">
             
+              <th class="govuk-table__header">Name</th>
+            
+              <th class="govuk-table__header">Official name</th>
+            
+              <th class="govuk-table__header">Type</th>
+            
+              <th class="govuk-table__header">Key</th>
+            
+              <th class="govuk-table__header">Start date</th>
+            
+              <th class="govuk-table__header">End date</th>
+            
+            
+              <th class="govuk-table__header">&nbsp;</th>
+            
+          </tr>
+        </thead>
+        <tbody>
 
-            <table class="govuk-table">
-                <thead>
-                <tr class="govuk-table__row">
-                    <th class="govuk-table__header">Link to the data</th>
-                    <th class="govuk-table__header">Format</th>
-                    <th class="govuk-table__header">File added</th>
-                    <th class="govuk-table__header">Frequency</th>
-                </tr>
-                </thead>
-                <tbody>
-
+          
+            <tr class="govuk-table__row">
+              
                 
-
+                  <td class="govuk-table__cell">
+                    Afghanistan
+                  </td>
                 
-                    <tr class="govuk-table__row">
-                        <td class="govuk-table__cell">
-                            
-                                <a
-                                        class="govuk-link"
-                                        href="/table_data/datasets_1/hmrc.exporters/L1">
-                                    Deptartment Countries and Territories Reference Data
-                                </a>
-                            
-
-                        </td>
-                        <td class="govuk-table__cell">
-                            CSV
-                        </td>
-                        <td class="govuk-table__cell">
-                            09/17
-                        </td>
-                        <td class="govuk-table__cell">
-                            Annually
-                        </td>
-                    </tr>
-
-                </tbody>
-            </table>
-            <button type="submit" class="govuk-button" data-module="govuk-button">
-  Get notified when this page is updated
-</button>
-        </div>
+              
+                
+                  <td class="govuk-table__cell">
+                    The Islamic Republic of Afghanistan
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    Country
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    AF
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell unknown">
+                    Not set
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell unknown">
+                    Not set
+                  </td>
+                
+              
+              
+                <td class="govuk-table__cell">
+                  <a href="/admin/app/referencedata/3/data/2/change/">
+                    Edit
+                  </a>
+                </td>
+              
+            </tr>
+          
+            <tr class="govuk-table__row">
+              
+                
+                  <td class="govuk-table__cell">
+                    Ajman
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    Emirate of Ajman
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    Territory
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    AE-AJ
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell unknown">
+                    Not set
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell unknown">
+                    Not set
+                  </td>
+                
+              
+              
+                <td class="govuk-table__cell">
+                  <a href="/admin/app/referencedata/3/data/3/change/">
+                    Edit
+                  </a>
+                </td>
+              
+            </tr>
+          
+            <tr class="govuk-table__row">
+              
+                
+                  <td class="govuk-table__cell">
+                    Akrotiri
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    Sovereign Base Areas of Akrotiri and Dhekelia
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    Territory
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    XQZ
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell unknown">
+                    Not set
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell unknown">
+                    Not set
+                  </td>
+                
+              
+              
+                <td class="govuk-table__cell">
+                  <a href="/admin/app/referencedata/3/data/4/change/">
+                    Edit
+                  </a>
+                </td>
+              
+            </tr>
+          
+            <tr class="govuk-table__row">
+              
+                
+                  <td class="govuk-table__cell">
+                    Åland Islands
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    Åland Islands
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    Territory
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    AX
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell unknown">
+                    Not set
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell unknown">
+                    Not set
+                  </td>
+                
+              
+              
+                <td class="govuk-table__cell">
+                  <a href="/admin/app/referencedata/3/data/5/change/">
+                    Edit
+                  </a>
+                </td>
+              
+            </tr>
+          
+            <tr class="govuk-table__row">
+              
+                
+                  <td class="govuk-table__cell">
+                    Abu Dhabi
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    Emirate of Abu Dhabi
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    Territory
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell">
+                    AE-AZ
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell unknown">
+                    Not set
+                  </td>
+                
+              
+                
+                  <td class="govuk-table__cell unknown">
+                    Not set
+                  </td>
+                
+              
+              
+                <td class="govuk-table__cell">
+                  <a href="/admin/app/referencedata/3/data/1/change/">
+                    Edit
+                  </a>
+                </td>
+              
+            </tr>
+          
+        </tbody>
+      </table>
     </div>
+  </div>
 
-
-    <div class="govuk-grid-row">
-        <div class="govuk-grid-column-three-quarters">
-            <h2 class="govuk-heading-l govuk-!-margin-top-8">Additional Information</h2>
-
-            <dl class="govuk-summary-list">
-                <div class="govuk-summary-list__row">
-                    <dt class="govuk-summary-list__key">
-                        Published Date
-                    </dt>
-                    <dd class="govuk-summary-list__value">
-                        05/07/2017
-                    </dd>
-                </div>
-                <div class="govuk-summary-list__row">
-                    <dt class="govuk-summary-list__key">
-                        Updated Date
-                    </dt>
-                    <dd class="govuk-summary-list__value">
-                        25/07/2019
-                    </dd>
-                </div>
-
-                <div class="govuk-summary-list__row">
-                    <dt class="govuk-summary-list__key">
-                        Part of
-                    </dt>
-                    <dd class="govuk-summary-list__value">
-                        <a class="govuk-link" href="/catalogue/hmrc-data">
-                            Reference Data
-                        </a>
-                    </dd>
-                </div>
-
-                <div class="govuk-summary-list__row">
-                    <dt class="govuk-summary-list__key">Redaction Note</dt>
-                    <dd class="govuk-summary-list__value"></dd>
-                </div>
-                <div class="govuk-summary-list__row">
-                    <dt class="govuk-summary-list__key">Licence</dt>
-                    <dd class="govuk-summary-list__value"></dd>
-                </div>
-                <div class="govuk-summary-list__row">
-                    <dt class="govuk-summary-list__key">Volume</dt>
-                    <dd class="govuk-summary-list__value">0</dd>
-                </div>
-                <div class="govuk-summary-list__row">
-                    <dt class="govuk-summary-list__key">Retention Policy</dt>
-                    <dd class="govuk-summary-list__value"></dd>
-                </div>
-                <div class="govuk-summary-list__row">
-                    <dt class="govuk-summary-list__key">Personal Data</dt>
-                    <dd class="govuk-summary-list__value">Does not contain personal data</dd>
-                </div>
-                <div class="govuk-summary-list__row">
-                    <dt class="govuk-summary-list__key">Restrictions on usage</dt>
-                    <dd class="govuk-summary-list__value"></dd>
-                </div>
-
-
-            </dl>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h2 class="govuk-heading-l govuk-!-margin-top-8">Additional information</h2>
+      <dl class="govuk-summary-list">
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Published date
+          </dt>
+          <dd class="govuk-summary-list__value">
+            30/07/2019
+          </dd>
         </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">
+            Updated date
+          </dt>
+          <dd class="govuk-summary-list__value">
+            30/07/2019 - <a href="data-workpace-updates-refdata.html">See all updates</a>
+          </dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Licence</dt>
+          <dd class="govuk-summary-list__value">N/A</dd>
+        </div>
+        <div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Restrictions on usage</dt>
+          <dd class="govuk-summary-list__value">N/A</dd>
+        </div>
+      </dl>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </div>
 
     </main>
   </div>
